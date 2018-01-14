@@ -1,0 +1,423 @@
+
+
+/*For xs device*/
+
+@media(min-width: 275px) and (max-width: 320px){
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+.navbar-brand {
+    font-size: 25px;
+    line-height: 33px;
+}
+.about_me {
+    padding-top: 20px;
+}
+.about_me h1 {
+    padding-top: 0px;
+}
+.heading{
+    font-size: 32px;
+}
+.about_me h2 {
+    font-size: 20px;
+    margin-top: -20px;
+}
+.about_me p {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: rgb(167, 128, 15);
+    font-family: 'Playball', cursive;
+}
+.about_me ul li{
+    margin-left: 15px;
+}
+#my_work h1{
+    font-size: 32px;
+    margin-top: -35px;
+}
+.btn {
+    font-size: 17px;
+    padding: 5px 12px;
+    margin-bottom: 3px;
+}
+#myBtnContainer {
+    margin-bottom: 0px;
+}
+#writings h2{
+    font-size: 18px;
+    margin-top: -25px;
+}
+#birthday_wish_image {
+    padding-top: 0px;
+}
+
+}/*End of 320px*/
+
+@media(min-width: 321px) and (max-width: 480px){
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 4px;
+}
+.navbar-brand {
+    font-size: 25px;
+    line-height: 30px;
+}
+.about_me h1 {
+    padding-top: 15px;
+}
+.about_me ul li{
+	margin-left: 20px;
+}
+.about_me h5{
+	margin-left: 10px;
+}
+.about_me ul{
+	margin-bottom: -40px;
+}
+.btn {
+    font-size: 20px;
+    padding: 3px 11px;
+}
+#writings h2{
+	margin-top: -20px;
+}
+.social-icon-div h4{
+    font-size: 12px;
+}
+
+
+
+
+
+}/*End of 480px*/
+
+@media(min-width: 481px) and (max-width: 640px){
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 11px;
+}
+.navbar-brand {
+    font-size: 37px;
+    line-height: 32px;
+}	
+.about_me h1 {
+    padding-top: 0px;
+}
+.about_me ul li{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.about_me h5 {
+    font-size: 30px;
+}
+.about_me p{
+    font-size: 30px;
+}
+#my_work h1{
+    margin-top: -15px;
+}
+.btn{
+    font-size: 28px;
+}
+.social-icon-div h4{
+    font-size: 20px;
+}
+#birthday_wish_image img{
+    margin-top: -35px;
+}
+}/*End of 640px*/
+
+@media(min-width: 641px) and (max-width: 767px){
+
+.navbar-brand {
+    line-height: 37px;
+}	
+.about_me h1 {
+    padding-top: 15px;
+}
+.heading {
+    position: relative;
+    font-weight: 800;
+    font-size: 55px;
+    letter-spacing: 1px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Playball', cursive;
+}
+#about_me h2{
+    font-size: 50px;
+}
+.about_me p {
+    font-size: 43px;
+}
+.about_me ul li{
+        font-size: 30px;
+        margin-left: 25px;
+}
+.about_me h5{
+    font-size: 45px;
+}
+.btn{
+    font-size: 43px;
+    margin-bottom: 12px;
+}
+.social-icon-div h4{
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+}/*End of 767px*/
+
+/*For sm device*/
+
+@media(min-width: 768px) and (max-width: 991px){
+.menu li a {
+    font-size: 25px;
+}
+
+.about_me img{
+	margin-left: 170px;
+}	
+.about_me h1{
+	font-size: 60px;
+}
+.about_me h2 {
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+}
+.about_me p {
+    font-size: 30px;
+}
+.about_me h5 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+.about_me ul li{
+	margin-top: 20px;
+	font-size: 32px;
+	margin-left: 20px;
+}
+#my_work h1{
+	font-size: 60px;
+}
+.btn{
+	font-size: 35px;
+}
+#writings h1{
+	font-size: 60px;
+}
+#writings h2{
+ 	font-size: 40px;
+ 	padding-bottom: 25px;
+}
+.social-icon-div i {
+    margin-top: 25px;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 40px;
+    height: 65px;
+    width: 65px;
+    line-height: 60px;
+    background-color: #f33;
+    border: 1px solid #f33;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.social-icon-div h4{
+	font-size: 45px;
+}
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 240px;
+}
+	
+}/*End of 991px*/
+
+/*For md device*/
+
+@media(min-width: 992px) and (max-width: 1024px){
+
+.col-md-6{
+	width: 100%;
+}
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 275px;
+    font-size: 60px;
+    margin-top: 30px;
+}
+.menu li a {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    transition: .5s all;
+    line-height: 1.5;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about_me img {
+    height: 420px;
+    width: 450px;
+    margin-left: 230px;
+}
+.heading{
+	font-size: 55px;
+}
+.about_me h2 {
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+}
+.about_me p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #333;
+    font-family: 'Playball', cursive;
+}
+.about_me h5 {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #333;
+    font-family: 'Playball', cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about_me ul li {
+    font-size: 40px;
+    margin-left: 40px;
+}
+.btn {
+
+    font-size: 40px;
+}
+.writings_heading h2{
+	font-size: 50px;
+    padding-bottom: 30px;
+}
+.social-icon-div i {
+    margin-top: 20px;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 46px;
+    height: 75px;
+    width: 75px;
+    line-height: 78px;
+    background-color: #f33;
+    border: 1px solid #f33;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+.social-icon-div h4{
+	color: white;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+	
+}/*End of 1024px*/
+
+@media(min-width: 1025px) and (max-width: 1199px){
+.col-md-6{
+	width: 100%;
+}
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 300px;
+    font-size: 66px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.menu li a {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    transition: .5s all;
+    line-height: 1.5;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about_me img {
+    height: 460px;
+    width: 522px;
+    margin-left: 215px;
+}
+.heading{
+    font-size: 70px;
+    padding-top: 25px;
+}
+.about_me h2 {
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 60px;
+}
+.about_me p {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #333;
+    font-family: 'Playball', cursive;
+}
+.about_me h5 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #333;
+    font-family: 'Playball', cursive;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.about_me ul li {
+    font-size: 48px;
+    margin-left: 40px;
+}
+#my_work h1{
+padding-bottom: 20px;
+}
+.btn {
+
+    font-size: 54px;
+}
+.writings_heading h2{
+	font-size: 50px;
+    padding-bottom: 30px;
+}
+.social-icon-div i {
+    margin-top: 20px;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 46px;
+    height: 75px;
+    width: 75px;
+    line-height: 78px;
+    background-color: #f33;
+    border: 1px solid #f33;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+.social-icon-div h4{
+	color: white;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+}/*End of 1199px*/
+
+/*For lg device*/
+
+@media(min-width: 1200px) and (max-width: 1920px){
+
+
+}/*End of 1920px*/
+

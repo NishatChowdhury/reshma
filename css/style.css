@@ -1,0 +1,193 @@
+*{margin: 0;
+padding: 0;}
+
+.menu{
+	background-color: black;
+}
+.menu li a{
+	font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    transition: .5s all;
+    line-height: 3.5;
+}
+.menu li a:hover{
+	background-color: transparent;
+	color: red;
+}
+.menu li a:active{
+    background-color: transparent;
+    color: green;
+}
+.navbar-toggle{
+	background-color: #6acc8d;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar>.container-fluid .navbar-brand{
+	margin-left: 30px;
+	
+}
+.navbar-brand{
+	font-size: 35px;
+	/*font-weight:900;*/
+    font-family: 'Great Vibes', cursive;
+	line-height: 65px;
+	color: #e6ce30;
+}
+.navbar-brand a {
+    margin-left: 40px;
+    color: #e6ce30;
+}
+.navbar-brand:hover{
+	color: #e6ce30;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #e41010;
+}
+.navbar-right li {
+	font-family: 'Playball', cursive;
+
+}
+.carousel-indicators li{
+	color: white;
+}
+
+span{
+	color: red;
+}
+.about_me{
+	padding-top: 50px;
+}
+.about_me h2{
+	text-align: center;
+	font-family: 'Playball', cursive;
+
+
+}
+.about_me ul li a{
+	text-decoration: none;
+}
+.about_me p{
+	text-align: center;
+	font-size: 24px;    
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: rgb(167, 128, 15);
+    font-family: 'Playball', cursive;
+}
+.about_me h5{
+	font-size: 18px;    
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #333;
+    font-family: 'Playball', cursive;
+}
+.about_me h1{
+	padding-top: 138px;
+}
+.heading {
+    position: relative;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Playball', cursive;
+}
+
+
+
+
+/*My works_style starts*/
+#my_work{
+    margin-top: 50px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 18px;
+  font-size: 24px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+/* Add a dark grey background color to the active button */
+.btn:hover, .active {
+  background-color: red;
+  color: white;
+}
+
+#myBtnContainer{
+    text-align: center;
+    margin-bottom: 50px;	
+    font-family: 'Playball', cursive;
+
+}
+
+/*My works_style_area ends*/
+
+.writings_heading{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: red;
+}
+
+#birthday_wish_image{
+	padding-top: 50px;
+}
+
+.social-icon-div {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+}
+.social-icon-div  i{
+    margin-top: 10px;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #f33;
+    border: 1px solid #f33;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+h4{
+	color: white;
+	font-size: 15px;
+}
